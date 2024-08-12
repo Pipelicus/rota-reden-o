@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_572cdcdaefb911a33ee6c3499fc0ae19 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_572cdcdaefb911a33ee6c3499fc0ae19" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_572cdcdaefb911a33ee6c3499fc0ae19 = L.map(
+                "map_572cdcdaefb911a33ee6c3499fc0ae19",
+                {
+                    center: [-8.025, -50.031],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_72fcb5fc2dac02124ab6ca224da4702d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_72fcb5fc2dac02124ab6ca224da4702d.addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+            var marker_d3b10d5339cc98ff244e74ea357ecfed = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_08ad6ef81a74a75a91b8a7bd5c6ae5f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d6a38da9356fbfcbf1e6abddd78fa82 = $(`<div id="html_3d6a38da9356fbfcbf1e6abddd78fa82" style="width: 100.0%; height: 100.0%;">Açái Supremus</div>`)[0];
+                popup_08ad6ef81a74a75a91b8a7bd5c6ae5f9.setContent(html_3d6a38da9356fbfcbf1e6abddd78fa82);
+            
+        
+
+        marker_d3b10d5339cc98ff244e74ea357ecfed.bindPopup(popup_08ad6ef81a74a75a91b8a7bd5c6ae5f9)
+        ;
+
+        
+    
+    
+            var marker_d398a04d372bf1d35bfb709544a814ef = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_8e65b479fde8065e508272402d0dd8ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c25650c55856ee3bc18a62eca044241 = $(`<div id="html_6c25650c55856ee3bc18a62eca044241" style="width: 100.0%; height: 100.0%;">Brasil Massas</div>`)[0];
+                popup_8e65b479fde8065e508272402d0dd8ea.setContent(html_6c25650c55856ee3bc18a62eca044241);
+            
+        
+
+        marker_d398a04d372bf1d35bfb709544a814ef.bindPopup(popup_8e65b479fde8065e508272402d0dd8ea)
+        ;
+
+        
+    
+    
+            var marker_5d5bd9acee7d57401af24489ec2b37f6 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_ea61b5b82c55e4009d6a7eaf58d0cffd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f317af14fe82cacffee29d042da53097 = $(`<div id="html_f317af14fe82cacffee29d042da53097" style="width: 100.0%; height: 100.0%;">Refrigérios Gourmet - Doces e Geladinhos</div>`)[0];
+                popup_ea61b5b82c55e4009d6a7eaf58d0cffd.setContent(html_f317af14fe82cacffee29d042da53097);
+            
+        
+
+        marker_5d5bd9acee7d57401af24489ec2b37f6.bindPopup(popup_ea61b5b82c55e4009d6a7eaf58d0cffd)
+        ;
+
+        
+    
+    
+            var marker_adc072013c34c1d58595e46d35433ca1 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_b1d3723d732c18b84218be88b825a4a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a947919cf978f8e89ca9f24f3db445dd = $(`<div id="html_a947919cf978f8e89ca9f24f3db445dd" style="width: 100.0%; height: 100.0%;">Espetinhos e Jantinha Rodrigues</div>`)[0];
+                popup_b1d3723d732c18b84218be88b825a4a7.setContent(html_a947919cf978f8e89ca9f24f3db445dd);
+            
+        
+
+        marker_adc072013c34c1d58595e46d35433ca1.bindPopup(popup_b1d3723d732c18b84218be88b825a4a7)
+        ;
+
+        
+    
+    
+            var marker_251ed8bafb55b9c9fba92447242c047a = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_f4c7f94e65c3d7ac441efc65ff5ac206 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_327467cac125089718d813b39f5e6822 = $(`<div id="html_327467cac125089718d813b39f5e6822" style="width: 100.0%; height: 100.0%;">Sabor Brasileirinho</div>`)[0];
+                popup_f4c7f94e65c3d7ac441efc65ff5ac206.setContent(html_327467cac125089718d813b39f5e6822);
+            
+        
+
+        marker_251ed8bafb55b9c9fba92447242c047a.bindPopup(popup_f4c7f94e65c3d7ac441efc65ff5ac206)
+        ;
+
+        
+    
+    
+            var marker_201e29f53e9c119d6abfebe6d0a5911f = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_0062478209754fc75d4fbda6e6f0853c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7943145aa60eee9ff51960007ec7f12a = $(`<div id="html_7943145aa60eee9ff51960007ec7f12a" style="width: 100.0%; height: 100.0%;">Spaguettinni Massas</div>`)[0];
+                popup_0062478209754fc75d4fbda6e6f0853c.setContent(html_7943145aa60eee9ff51960007ec7f12a);
+            
+        
+
+        marker_201e29f53e9c119d6abfebe6d0a5911f.bindPopup(popup_0062478209754fc75d4fbda6e6f0853c)
+        ;
+
+        
+    
+    
+            var marker_ac0dfb5bd87ede14eed97df5d3e89757 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_1dbb725a9aa3027500155432f40dc0c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_489dc20a4f0e1f4cf46f5d853bf6c6ec = $(`<div id="html_489dc20a4f0e1f4cf46f5d853bf6c6ec" style="width: 100.0%; height: 100.0%;">Sr Caldos - Bosque Food Park</div>`)[0];
+                popup_1dbb725a9aa3027500155432f40dc0c4.setContent(html_489dc20a4f0e1f4cf46f5d853bf6c6ec);
+            
+        
+
+        marker_ac0dfb5bd87ede14eed97df5d3e89757.bindPopup(popup_1dbb725a9aa3027500155432f40dc0c4)
+        ;
+
+        
+    
+    
+            var marker_ccd5cfa68635acd8367b297023dbe0ff = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_925bcad9b72bca10b659630eae748ac1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41c4c06e3c63766b2d75245cb4e0b892 = $(`<div id="html_41c4c06e3c63766b2d75245cb4e0b892" style="width: 100.0%; height: 100.0%;">Brasil Salada Fresh</div>`)[0];
+                popup_925bcad9b72bca10b659630eae748ac1.setContent(html_41c4c06e3c63766b2d75245cb4e0b892);
+            
+        
+
+        marker_ccd5cfa68635acd8367b297023dbe0ff.bindPopup(popup_925bcad9b72bca10b659630eae748ac1)
+        ;
+
+        
+    
+    
+            var marker_77d7806a5f2d11de60579637d572cf8c = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_fcbcf5d84311c51b3ee2b137927dec6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69616ea9a7f9b65514a5984358d3cabe = $(`<div id="html_69616ea9a7f9b65514a5984358d3cabe" style="width: 100.0%; height: 100.0%;">BeBold Açaí - Super Food</div>`)[0];
+                popup_fcbcf5d84311c51b3ee2b137927dec6f.setContent(html_69616ea9a7f9b65514a5984358d3cabe);
+            
+        
+
+        marker_77d7806a5f2d11de60579637d572cf8c.bindPopup(popup_fcbcf5d84311c51b3ee2b137927dec6f)
+        ;
+
+        
+    
+    
+            var marker_7b597c49bffd3175b4ea9bfa8fc2a994 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_b20fddc7cb8fc5b7acfa9735f5481b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2360b3ae4d4976c0b7aa34f9d3f2a47d = $(`<div id="html_2360b3ae4d4976c0b7aa34f9d3f2a47d" style="width: 100.0%; height: 100.0%;">Jack Comidas Paraenses</div>`)[0];
+                popup_b20fddc7cb8fc5b7acfa9735f5481b08.setContent(html_2360b3ae4d4976c0b7aa34f9d3f2a47d);
+            
+        
+
+        marker_7b597c49bffd3175b4ea9bfa8fc2a994.bindPopup(popup_b20fddc7cb8fc5b7acfa9735f5481b08)
+        ;
+
+        
+    
+    
+            var marker_a3e3dc63ae33a0a52d26ee3a0cddbde2 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_5c2fe336321d1fd8a0ea83cffa3c0ba5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_349b2201916f1db905f10a821f0fa81e = $(`<div id="html_349b2201916f1db905f10a821f0fa81e" style="width: 100.0%; height: 100.0%;">Espeto do Daelto</div>`)[0];
+                popup_5c2fe336321d1fd8a0ea83cffa3c0ba5.setContent(html_349b2201916f1db905f10a821f0fa81e);
+            
+        
+
+        marker_a3e3dc63ae33a0a52d26ee3a0cddbde2.bindPopup(popup_5c2fe336321d1fd8a0ea83cffa3c0ba5)
+        ;
+
+        
+    
+    
+            var marker_de8b75c4f28ee93057520756c5c432b3 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_02d0ebf6bbc9b4b6f6f54744e9014708 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7269be38697538b8e5e06b2bc6421b9 = $(`<div id="html_b7269be38697538b8e5e06b2bc6421b9" style="width: 100.0%; height: 100.0%;">Chiquinho Espetos</div>`)[0];
+                popup_02d0ebf6bbc9b4b6f6f54744e9014708.setContent(html_b7269be38697538b8e5e06b2bc6421b9);
+            
+        
+
+        marker_de8b75c4f28ee93057520756c5c432b3.bindPopup(popup_02d0ebf6bbc9b4b6f6f54744e9014708)
+        ;
+
+        
+    
+    
+            var marker_993de3a40ba9c30b87fe333ea672a3ee = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_aaf17b248346a00196e8ee6943c6371f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa27e3c7508df742315633e0cbf353f1 = $(`<div id="html_fa27e3c7508df742315633e0cbf353f1" style="width: 100.0%; height: 100.0%;">Mary Cakes</div>`)[0];
+                popup_aaf17b248346a00196e8ee6943c6371f.setContent(html_fa27e3c7508df742315633e0cbf353f1);
+            
+        
+
+        marker_993de3a40ba9c30b87fe333ea672a3ee.bindPopup(popup_aaf17b248346a00196e8ee6943c6371f)
+        ;
+
+        
+    
+    
+            var marker_3bbcce05fd565aac74c11c7df0e7cd16 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_6e14975025d1f9238a1316dc0f686aee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083e9ff5c0f3a5b13a44d084acc6ad81 = $(`<div id="html_083e9ff5c0f3a5b13a44d084acc6ad81" style="width: 100.0%; height: 100.0%;">Açaiteria RedeX</div>`)[0];
+                popup_6e14975025d1f9238a1316dc0f686aee.setContent(html_083e9ff5c0f3a5b13a44d084acc6ad81);
+            
+        
+
+        marker_3bbcce05fd565aac74c11c7df0e7cd16.bindPopup(popup_6e14975025d1f9238a1316dc0f686aee)
+        ;
+
+        
+    
+    
+            var marker_564642f77989c98ba759bf2363bc48dd = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_3c582a7b9c03e3b43202bd391cf2b01e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e795224aa0e2a493eb25e60e5f41ea5 = $(`<div id="html_6e795224aa0e2a493eb25e60e5f41ea5" style="width: 100.0%; height: 100.0%;">Happy Hour Espetaria e Pizzaria</div>`)[0];
+                popup_3c582a7b9c03e3b43202bd391cf2b01e.setContent(html_6e795224aa0e2a493eb25e60e5f41ea5);
+            
+        
+
+        marker_564642f77989c98ba759bf2363bc48dd.bindPopup(popup_3c582a7b9c03e3b43202bd391cf2b01e)
+        ;
+
+        
+    
+    
+            var marker_07d7744cb21abb48690b763a67158780 = L.marker(
+                [-8.025, -50.031],
+                {}
+            ).addTo(map_572cdcdaefb911a33ee6c3499fc0ae19);
+        
+    
+        var popup_de5d33b11d1b80cc947896ed29f1c475 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20f1d3dcc8b95b5fb88b5c035817a991 = $(`<div id="html_20f1d3dcc8b95b5fb88b5c035817a991" style="width: 100.0%; height: 100.0%;">Frutos do Goiás</div>`)[0];
+                popup_de5d33b11d1b80cc947896ed29f1c475.setContent(html_20f1d3dcc8b95b5fb88b5c035817a991);
+            
+        
+
+        marker_07d7744cb21abb48690b763a67158780.bindPopup(popup_de5d33b11d1b80cc947896ed29f1c475)
+        ;
+
+        
+    
+</script>
+</html>
